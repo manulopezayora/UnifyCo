@@ -1,0 +1,105 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* Para la pagina de notícias */
+
+.small-img {
+  width: 40%;
+  float: left;
+  shape-outside: square(150px at 0px 150px);
+  margin: 0 20px 20px 0;
+}
+
+.company__img {
+  width: 80%;
+  height: 50vh;
+
+  background-image: url("https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-origin: border-box;
+  background-size: cover;
+}
+
+.bottom-right {
+  top: 92%;
+  left: 90%;
+}
+
+.news__text {
+  margin-bottom: 50px;
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.block {
+  display: block;
+  margin-top: 20px;
+}
+
+
+.page-footer{
+  background-color: #009688;
+}
+
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  /* Para la pagina de notícias */
+
+.small-img {
+  width: 80%;
+  float: none;
+  shape-outside: square(150px at 0px 150px);
+  margin: 0 20px 20px 0;
+}
+
+.news__text {
+  margin-bottom: 50px;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* ++++++++++++++++++++++++++ */
+
+.bottom-right {
+
+    top: 90%;
+    left: 80%;
+
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+}
